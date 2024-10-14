@@ -1,0 +1,17 @@
+body{
+    background: rgb(149, 82, 149);
+}
+
+/* ESTILOS TABLA */
+table{
+
+}
+
+th, td{
+
+    border: 1px solid rgb(21, 21, 19);
+    text-align: center;
+}
+
+/* ESTILOS FOMULARIO */
+

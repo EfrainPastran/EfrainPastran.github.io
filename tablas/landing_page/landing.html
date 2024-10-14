@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- METAS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLES -->
+     <link rel="stylesheet" href="../styles.css">
+
+    <title>Landing Page</title>
+</head>
+<body>
+    <h1>Mi landing page</h1>
+    <h3>Para obtener información del producto o servicio deja tus datos aqui:</h3>
+
+    <form action="" method="get" name="landingFomr">
+        <label for=""></label>
+        <input type="text" name="nombre" placeholder="Nombre:" required>
+
+        <label for=""></label>
+        <input type="text" name="cedula" placeholder="Cedula" required>
+
+        <label for=""></label>
+        <input type="text" name="telefono" placeholder="Telefono" required>
+
+        <label for="adsoffchk">No deseo recibir publicidad</label>
+        <input type="checkbox" name="adsoffchk" id="adsoffchk">
+
+        <div>
+            <label for="selectLanding">Selecciona el curso</label>
+            <select name="curso" id="selectLanding">
+                <option value="" disabled selected>Seleccionar</option>
+                <option value="1">Diseño web</option>
+                <option value="2">Juegos web</option>
+                <option value="3">Aplicación movil</option>
+            </select>
+        </div>
+
+        <label>Modalidad</label>
+        <div>
+            <input type="radio" id="presencial" name="modalidad" value="presencial">
+            <label for="presencial">Presencial</label>
+            <input type="radio" name="modalidad" id="online">
+            <label for="online">Online</label>
+        </div>
+
+        <input type="hidden" name="oculto" id="" value="algo que está oculto">
+
+        <input type="file" name="" id="">
+        <input type="datetime" name="" id="">
+        <input type="range" value="">
+        <input type="color" name="color" id="">
+
+        <input type="submit" value="Registar">
+        <input type="reset" value="Limpiar Campos">
+        <input type="button" value="Boton">
+    </form>
+
+</body>
+</html>
